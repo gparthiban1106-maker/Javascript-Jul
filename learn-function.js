@@ -28,12 +28,3 @@ console.log("Sum Value is",sumValue);
 
 
 
-function hello() {
-    {
-    let name="david";
-    console.log("Inside",name);
-    }
-    console.log("Outside",name);
-}
-hello();
-
