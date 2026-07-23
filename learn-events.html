@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title> JS Events Learning</title>
+    </head>
+    <body>
+        <h1 id="heading"></h1>
+        <input type="text" onblur="textvaluechange()">
+        <button onclick="sayHello()" onmouseover="over()" onmouseout="enter()">Say Hello</button>
+        <script>
+            function sayHello() {
+            document.getElementById("heading").innerHTML= "Hello Wolrd";
+            }
+            function over() {
+            document.getElementById("heading").innerHTML= "on hover";
+            }
+            function enter() {
+            document.getElementById("heading").innerHTML= "on out";
+            }
+            function textvaluechange(){
+                alert("I am Changing");
+            }
+        </script>
+    </body>
+</html>
