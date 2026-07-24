@@ -1,4 +1,4 @@
-//Rembering or Retaining outer variable value even after outer functionis closed
+//Rembering or Retaining outer variable value even after outer functions closed
 
 function outer(){
     let count=0
